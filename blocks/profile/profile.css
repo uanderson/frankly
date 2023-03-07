@@ -1,0 +1,58 @@
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.6rem;
+    margin-bottom: 3.2rem;
+}
+
+.profile-wrapper picture img {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-container h1 {
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.profile-container h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.links-wrapper {
+    margin: 3rem 0 1rem;
+}
+
+.links-wrapper .links.block > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-wrapper .links.block > div picture {
+    margin: 0 1rem;
+}
+
+.links-wrapper .links.block > div picture img {
+    width: 32px;
+    height: 32px;
+}
